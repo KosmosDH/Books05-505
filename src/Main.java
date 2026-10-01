@@ -1,8 +1,8 @@
-import Controllers.BookController;
-import Services.BookRepository;
-import Services.Implementations.BookService;
-import Services.Implementations.InMemoryBookRepository;
-import View.Window;
+import controllers.BookController;
+import services.BookRepository;
+import services.implementations.BookService;
+import services.implementations.InMemoryBookRepository;
+import view.Window;
 
 void main() {
     BookRepository repository = new InMemoryBookRepository();

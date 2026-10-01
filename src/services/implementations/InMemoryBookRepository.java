@@ -1,7 +1,7 @@
-package Services.Implementations;
+package services.implementations;
 
-import Models.Book;
-import Services.BookRepository;
+import models.Book;
+import services.BookRepository;
 
 import java.util.ArrayList;
 import java.util.List;

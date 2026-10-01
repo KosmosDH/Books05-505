@@ -1,7 +1,7 @@
-package Controllers;
+package controllers;
 
-import Services.Implementations.BookService;
-import View.BookView;
+import services.implementations.BookService;
+import view.BookView;
 
 public class BookController {
     private final BookService service;

@@ -1,6 +1,6 @@
-package Services;
+package services;
 
-import Models.Book;
+import models.Book;
 
 import java.util.List;
 

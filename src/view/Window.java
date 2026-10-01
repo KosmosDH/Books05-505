@@ -1,7 +1,7 @@
-package View;
+package view;
 
-import Models.Book;
-import Controllers.BookController;
+import models.Book;
+import controllers.BookController;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,7 +1,7 @@
-package Services.Implementations;
+package services.implementations;
 
-import Models.Book;
-import Services.BookRepository;
+import models.Book;
+import services.BookRepository;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -26,7 +26,7 @@ public class BookService {
             throw new IllegalArgumentException("Год не может быть пустым");
         }
 
-        var book = new Book(UUID.randomUUID(), author, title, parseYear(year), additionalInfo);
+        Book book = new Book(UUID.randomUUID(), author, title, parseYear(year), additionalInfo);
         repository.save(book);
     }
 

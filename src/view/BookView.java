@@ -1,6 +1,6 @@
-package View;
+package view;
 
-import Models.Book;
+import models.Book;
 
 import java.util.List;
 
